@@ -2873,9 +2873,8 @@ h4.title + .category, .h4 + .category,
 }
 
 h5, .h5 {
-  font-size: 1.57em;
+  font-size: 1.2em;
   line-height: 1.4em;
-  margin-bottom: 15px;
 }
 
 h6, .h6 {
@@ -4631,10 +4630,6 @@ Created using IcoMoon - icomoon.io
   margin-bottom: 20px;
   -webkit-box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
-}
-
-.card .card-body {
-  min-height: 190px;
 }
 
 .card[data-background-color="orange"] {
@@ -7167,7 +7162,6 @@ Created using IcoMoon - icomoon.io
 
 /* Experience Style */
 .cc-experience .cc-experience-header {
-  padding-top: 60px;
   padding-right: 0;
   text-align: center;
   color: #fff;
@@ -7180,7 +7174,6 @@ Created using IcoMoon - icomoon.io
 }
 
 .cc-education .cc-education-header {
-  padding-top: 60px;
   padding-right: 0;
   text-align: center;
   color: #fff;
