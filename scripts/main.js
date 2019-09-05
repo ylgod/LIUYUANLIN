@@ -385,3 +385,5 @@ var waves = new Waves('#canvas', {
 });
 
 waves.animate();
+
+$('a[@rel*=lightbox]').lightBox();
