@@ -386,4 +386,7 @@ var waves = new Waves('#canvas', {
 
 waves.animate();
 
-$('a[@rel*=lightbox]').lightBox();
+    lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true
+    })
