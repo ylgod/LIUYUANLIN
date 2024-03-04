@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://iyl.me</id>
+    <title>元林工作室</title>
+    <updated>2024-03-04T10:48:50.274Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://iyl.me"/>
+    <link rel="self" href="https://iyl.me/atom.xml"/>
+    <subtitle>皇家元林专注于技术与娱乐并通过视频剪辑方式分享出来</subtitle>
+    <logo>https://iyl.me/images/avatar.png</logo>
+    <icon>https://iyl.me/favicon.ico</icon>
+    <rights>All rights reserved 2024, 元林工作室</rights>
+    <entry>
+        <title type="html"><![CDATA[通过TP-link路由器远程网络唤醒电脑]]></title>
+        <id>https://iyl.me/post/tong-guo-tp-link-lu-you-qi-yuan-cheng-wang-luo-huan-xing-dian-nao/</id>
+        <link href="https://iyl.me/post/tong-guo-tp-link-lu-you-qi-yuan-cheng-wang-luo-huan-xing-dian-nao/">
+        </link>
+        <updated>2024-03-04T10:16:53.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://iyl.me/post-images/1709547554920.png" alt="" loading="lazy"></figure>
+<h1 id="介绍路由器">介绍路由器</h1>
+<h2 id="关于路由器型号和系统">关于路由器型号和系统</h2>
+<p>我这款路由器是TL-XDR6078易展版，当前系统版本是1.0.16.<br>
+或许其他TP-link路由器也是这样的系统呢！</p>
+<h2 id="路由器系统的网络唤醒功能">路由器系统的网络唤醒功能</h2>
+<p>进去添加局域网下可被唤醒的设备即可。</p>
+<p>#修改电脑BIOS设置</p>
+<h2 id="根据自己电脑主板型号搜索设置方法">根据自己电脑主板型号搜索设置方法</h2>
+<p>不同的主板设置不一定一样，所以你需要根据自己的电脑主板型号在网上搜索自己的设置方法。</p>
+<h2 id="举例我的电脑bios设置微星z97">举例：我的电脑BIOS设置——微星Z97</h2>
+<p>如何設定網路喚醒功能?<br>
+請按照以下BIOS設定:</p>
+<ol>
+<li>在 BIOS Power Management 選單裡，將 EUP 2013 設為 Disabled。</li>
+<li>在 BIOS Wake Up Event 選單哩，將le “Resume By PCI or PCI-E Device” 設為 Enabled。</li>
+<li>在Windows裝置管理員選項，找到&quot;網路介面卡&quot; -&gt; &quot;電源管理&quot;, 勾選&quot;允許以此裝置喚醒電腦&quot;<br>
+原文参考(https://tw.msi.com/faq/mb-503.html)</li>
+</ol>
+<p>好了，赶紧试试吧！</p>
+]]></content>
+    </entry>
+</feed>
